@@ -8,7 +8,7 @@ export default function Navbar() {
                     <a className='navbar-brand' href='#'>
                         <img src='/resilience_lab_logo_remove_bg.png' 
                         alt='Resilience Lab logo with tagline - A Better Tomorrow, Today'
-                        height='90'
+                        height='80'
                         />
                     </a>
                 </div>

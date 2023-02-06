@@ -5,9 +5,9 @@ export default function Footer() {
   const year = {currentYear: today.getFullYear()}
   return (
     <>
-      <footer className="py-5 mt-5 fixed-bottom" style={{['background-color']: "#14b8a6"}}>
+      <footer className="py-3 mt-5 fixed-bottom" style={{['background-color']: "#14b8a6"}}>
         <div className='d-flex column justify-content-center align-items-center'>
-          © Resilience Lab {year.currentYear} | All Rights Reserved
+          <p className='small'>© Resilience Lab {year.currentYear} | All Rights Reserved</p>
         </div>
       </footer>
     </>
