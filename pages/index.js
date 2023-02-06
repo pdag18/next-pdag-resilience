@@ -8,7 +8,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Resilience Lab</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/resilience_lab_logo.svg" />
       </Head>
       <Navbar />
       <main >
